@@ -10,3 +10,7 @@ var triangle1Area = getTriangleArea(3,7),
 	triangle2Area = getTriangleArea(5,12),
 	triangle3Area = getTriangleArea(4,6),
 	triangle4Area = getTriangleArea(-2,10);
+console.log(triangle1Area);
+console.log(triangle2Area);
+console.log(triangle3Area);
+console.log(triangle4Area);
