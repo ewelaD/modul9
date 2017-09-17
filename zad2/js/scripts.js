@@ -3,8 +3,8 @@ var femaleNames = ['Asia', 'Kasia', 'Ola', 'Magda'], //['Asia', 'Kasia', 'Ola', 
 	allNames = femaleNames.concat(maleNames),
 	newName = 'Asia';
 	if (allNames.indexOf(newName) === -1) {
-		allNames.push('Marysia');
+		allNames.push('Asia');
 	} else {
-		console.log('There is Marysia');
+		console.log('There is ' + newName);
 	};
 	console.log(allNames);
