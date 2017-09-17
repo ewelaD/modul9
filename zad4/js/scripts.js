@@ -7,6 +7,6 @@ function drawTree(a) {
 		console.log(star);
 	}	
 }
-var draw1Tree = drawTree(5);
-	draw2Tree = drawTree(2);
-	draw3Tree = drawTree(8);
+console.log(drawTree(5));
+console.log(drawTree(2));
+console.log(drawTree(8));
