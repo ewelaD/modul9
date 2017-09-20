@@ -1,8 +1,6 @@
-var withButtonClass = document.getElementsByClassName('button');//szukam po klasach
-console.log(withButtonClass);
+var withButtonClass = document.getElementsByClassName('button');
 var lengthTable = withButtonClass.length;
 console.log(lengthTable);
-for (a = 0; a < lengthTable; a++) {
-	/*alert(withButtonClass.innerText);*/
+for (var a = 0; a < lengthTable; a++) {
 	alert(withButtonClass[a].innerText);
 }
