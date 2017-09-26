@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
 .container {
 	padding-top: 20px;
 	padding-bottom: 10px;
+}
+#js-winnerIs {
+	text-align: center;
+	font-family: 'Acme', sans-serif;
+	font-size: 20px;
 }
